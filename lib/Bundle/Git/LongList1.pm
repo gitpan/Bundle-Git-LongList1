@@ -1,7 +1,7 @@
 package Bundle::Git::LongList1;
 
 use 5.005;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
@@ -27,27 +27,83 @@ Exporter
 
 Carp
 
+Test::Distribution
+
 XSLoader
 
+File::Spec
+
+Test::Harness
+
 Test
+
+lib
+
+IO::Handle
+
+Scalar::Util
+
+Test::Tester
+
+Test::Perl::Critic
+
+Test::EOL
+
+Test::Exception
+
+Test::CPAN::Changes
+
+Test::DistManifest
+
+Test::CPAN::Meta
+
+Test::CPAN::Meta::JSON
+
+Perl::MinimumVersion
+
+Test::MinimumVersion
+
+Test::Mojibake
+
+Test::Pod::LinkCheck
+
+Test::Synopsis
+
+Test::Vars
+
+ExtUtils::CBuilder
+
+Params::Util
+
+Parse::CPAN::Meta
+
+Text::Glob
+
+Number::Compare
+
+File::Find::Rule
+
+File::Find::Rule::Perl
+
+version
+
+constant
+
+Sub::Uplevel
+
+Module::Metadata
+
+Test::Version
 
 parent
 
 Encode
 
-IO::Handle
-
-File::Spec
-
 File::Path
 
 Time::HiRes
 
-Test::Harness
-
 Test::More
-
-constant
 
 Text::Wrap
 
@@ -55,19 +111,79 @@ Pod::Escapes
 
 Pod::Simple
 
-Pod::Man
+Term::ANSIColor
+
+File::ShareDir
+
+File::ShareDir::Install
+
+Path::FindDev
+
+IPC::Run3
+
+Probe::Perl
+
+Test::Script
+
+File::Which
+
+File::HomeDir
+
+Module::Runtime
+
+Try::Tiny
+
+Test::Fatal
+
+Role::Tiny
+
+Path::IsDev
+
+Digest::SHA
+
+Digest::base
+
+if
+
+Path::Tiny
+
+Perl::OSType
+
+Path::Class
+
+Class::Inspector
+
+Sub::Exporter
+
+File::ShareDir::ProjectDistDir
+
+Pod::Parser
+
+base
+
+Class::Tiny
+
+Lingua::EN::Inflect
+
+Pod::Spell
+
+Text::Aspell
+
+Lingua::Ispell
+
+Pod::Usage
+
+Getopt::Long
 
 Data::Dumper
 
 ExtUtils::MakeMaker
 
+Pod::Man
+
+threads
+
 threads::shared
-
-Scalar::Util
-
-Test::Tester
-
-Devel::StackTrace
 
 Test::NoWarnings
 
@@ -75,43 +191,157 @@ Test::Deep
 
 Data::Dump
 
-lib
+Test::Spelling
 
-version
+Test::Pod
+
+Pod::Coverage
+
+Pod::Coverage::TrustPod
+
+Test::Pod::Coverage
+
+Test::Portability::Files
 
 File::Temp
 
-Digest::base
+Devel::StackTrace
+
+MIME::Base64
 
 Digest::MD5
 
+SelfLoader
+
 Text::Balanced
+
+File::Slurp::Tiny
+
+Tree::DAG_Node
+
+Test::Warn
 
 Parse::RecDescent
 
-Filter::Util::Call
+Sub::Exporter::Progressive
 
-Inline::Files
+Variable::Magic
 
-Inline::C
+Sub:::Name
+
+Module::Implementation
+
+B::Hooks::EndOfScope
+
+Test::Requires
+
+Package::Stash
+
+namespace::clean
+
+List::MoreUtils
+
+Dist::CheckConflicts
+
+ExtUtils::Config
+
+ExtUtils::InstallPaths
+
+ExtUtils::ParseXS
+
+Text::ParseWords
+
+Module::Load
+
+ExtUtils::Helpers
+
+ExtUtils::Install
+
+TAP::Harness::Env
+
+CPAN::Meta::Requirements
+
+Module::Build::Tiny
+
+Test::Warnings
+
+IO::Capture
+
+Set::Scalar
+
+Pod::Strip
+
+Module::Pluggable
+
+Algorithm::Diff
+
+Text::Diff
+
+Class::Accessor
+
+Class::Accessor::Fast
+
+Array::Diff
+
+Text::Template
+
+MRO::Compat
+
+Sub::Install
+
+Data::OptList
 
 Capture::Tiny
 
 Test::FailWarnings
 
-Text::ParseWords
+Data::Section
+
+Software::License
+
+File::Find::Rule::VCS
+
+Mo::default
+
+YAML
+
+Compress::Raw::Bzip2
+
+Compress::Raw::Zlib
+
+Compress::Zlib
+
+IO::Zlib
+
+Archive::Tar
+
+ExtUtils::Manifest
+
+Test::UseAllModules
+
+Time::Local
+
+Filter::Util::Call
+
+Archive::Zip
+
+Archive::Any::Lite
+
+CPAN::DistnameInfo
 
 CPAN::Meta::YAML
 
-ExtUtils::ParseXS
+IO::String
 
-Pod::Usage
+Module::CPANTS::Analyse
 
-Getopt::Long
+Test::Kwalitee
+
+Inline::Files
+
+Inline::C
 
 Text::Abbrev
-
-Parse::CPAN::Meta
 
 Locale::Maketext
 
@@ -119,47 +349,27 @@ Locale::Maketext::Simple
 
 Locale::Maketext::Lexicon
 
-Module::Metadata
-
-Module::Load
-
-Module::Load::Conditional
+Module::CoreList
 
 Params::Check
 
+Module::Load::Conditional
+
+ExtUtils::Constant
+
 Socket
 
-ExtUtils::CBuilder
-
-ExtUtils::Manifest
-
-Perl::OSType
-
-CPAN::Meta::Requirements
+JSON::PP
 
 CPAN::Meta
 
-ExtUtils::Install
-
 Module::Build
-
-Sub::Uplevel
-
-base
-
-Test::Exception
 
 Data::Validate::Type
 
 Test::Type
 
 IO::Pty
-
-Test::CPAN::Meta
-
-Perl::MinimumVersion
-
-Test::MinimumVersion
 
 IPC::Run
 
@@ -169,45 +379,13 @@ Git::Repository
 
 Git::Repository::Plugin::Log
 
-JSON::PP
-
-ExtUtils::Config
-
-ExtUtils::InstallPaths
-
-ExtUtils::Helpers
-
-TAP::Harness::Env
-
-Module::Build::Tiny
-
-Sub::Install
-
-Params::Util
-
-Data::OptList
-
-List::MoreUtils
-
-Module::Runtime
-
-Sub::Name
-
-if 
-
-Try::Tiny
-
-Test::Fatal
-
 Dist::CheckConflicts
 
-Module::Implementation
-
-Package::Stash
-
-Test::Requires
+Class::Load::XS
 
 Class::Load
+
+Sub::Name
 
 Perl6::Slurp
 
@@ -227,15 +405,11 @@ HTML::Entities
 
 Perl::Tidy
 
-Term::ANSIColor
-
 Git::Deploy
 
 URI::Escape
 
 WWW::RobotRules
-
-Time::Local
 
 HTTP::Date
 
@@ -253,6 +427,8 @@ LWP::MediaTypes
 
 Storable
 
+Encode::Locale
+
 HTTP::Daemon
 
 HTML::Tagset
@@ -263,25 +439,11 @@ File::Listing
 
 IO::HTML
 
-Encode::Locale
-
-MIME::Base64
-
 LWP::UserAgent
 
 YAML::Syck
 
 Net::Ping
-
-Probe::Perl
-
-IPC::Run3
-
-Test::Script
-
-File::Which
-
-File::HomeDir
 
 IO::Zlib
 
@@ -289,23 +451,15 @@ Net::FTP
 
 Term::ReadKey
 
-Text::Glob
-
-Compress::Raw::Bzip2
-
-Socket
-
-IO::String
-
-Archive::Tar
-
-Digest::SHA
+IO::Socket::IP
 
 HTTP::Tiny
 
-Archive::Zip
+IPC::Cmd
 
-YAML
+ExtUtils::CChecker
+
+Module::Build::Compat
 
 Socket::GetAddrInfo
 
@@ -313,15 +467,11 @@ Socket6
 
 IO::Socket::INET6
 
-IO::Socket::IP
-
 Digest::SHA1
 
 Digest::SHA::PurePerl
 
 Digest::SHA256
-
-Compress::Zlib
 
 Crypt::CBC
 
@@ -341,6 +491,8 @@ Data::Buffer
 
 Digest::MD2
 
+Term::Gnuplot
+
 Math::Pari
 
 Crypt::Random
@@ -355,21 +507,25 @@ Math::BigInt::GMP
 
 Class::ErrorHandler
 
+Convert::ASN1
+
 Convert::PEM
 
 Crypt::DSA
 
 Crypt::RSA
 
-Convert::ASN1
-
 Sort::Versions
 
 Crypt::Twofish
 
-Test::Synopsis
+Crypt::Rijndael
 
-Crypt::OpenPGP
+Crypt::CAST5_PP
+
+Crypt::RIPEMD160
+
+Crypt::IDEA
 
 GnuPG
 
@@ -377,14 +533,53 @@ Module::Signature
 
 Safe
 
-CPAN
+Math::BigInt::Pari
+
+Crypt::OpenPGP
+
+File::pushd
+
+Error
+
+JSON
+
+Mozilla::CA
+
+Net::SSLeay
+
+IO::Socket::SSL
+
+LWP::Protocol::https
+
+Crypt::SSLeay
+
+REST::Client
+
+Test::use::ok
+
+Hash::Util::FieldHash::Compat
+
+Devel::PPPort
+
+Scope::Guard
+
+Data::Util
+
+Net::Netrc
+
+HTML::TreeBuilder
+
+Gerrit::REST
+
+File::Remove
+
+Git::Hooks
 
 Git::CPAN::Hook
 
-
 =head1 AUTHOR
 
-Version 0.01 Kevin W. Henwood, <Khen1950fx@yahoo.com>
+Version 0.02 Kevin W. Henwood, <Khen1950fx@yahoo.com>
 
 =head1 COPYRIGHT AND LICENSE
 
